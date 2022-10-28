@@ -11,8 +11,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Tic_tac_toe"
+        android:theme="@style/Theme.Tic_Tac_Toe"
         tools:targetApi="31">
+        <activity
+            android:name=".SetPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".GameDisplay"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

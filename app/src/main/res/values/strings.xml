@@ -1,3 +1,12 @@
-<resources>
-    <string name="app_name">tic_tac_toe</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Крестики Нолики</string>
+    <string name="homeTitle">Крестики-Нолики</string>
+    <string name="PlayButton">Играть</string>
+    <string name="PlayerSetTitle">Введите имя</string>
+    <string name="Label1" tools:ignore="Typos">Игрок 1</string>
+    <string name="Label2">Игрок 2</string>
+    <string name="sunmitButton">Sumbit Names</string>
+    <string name="NameHint">Введите имя</string>
+    <string name="play_again">Еще раз</string>
+    <string name="home">Новая игра</string>
 </resources>
